@@ -14,7 +14,7 @@ body {
 }
 
 .header__top {
-    background: #007765; // green
+    background: #007765; /* green */
     position: fixed;
     height: 84px;
     width: 100%;
@@ -23,7 +23,7 @@ body {
 .logo__text {
     position: static;
     float: right;
-    color: #ffffff; // white
+    color: #ffffff; /* white */
     display: block;
     font-weight: 500;
     font-style: normal;
@@ -48,7 +48,8 @@ body {
 }
 
 .logo {
-    padding: 20px 50px 0;
+    padding: 21px 0px 18px 50px;
+    float: left;
     position: static;
 }
 
@@ -58,7 +59,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 403px;
-    padding: 160px;
+/*     padding: 160px; */
 }
 
 .jumbotron__text {
