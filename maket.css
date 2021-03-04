@@ -11,6 +11,7 @@ body {
     max-width: 1219px;
     padding: 0 55px;
     margin: 0 auto;
+
 }
 
 .header__top {
@@ -18,7 +19,9 @@ body {
     position: fixed;
     height: 84px;
     width: 100%;
+    top: 0px;
 }
+
 
 .logo__text {
     position: static;
@@ -54,11 +57,12 @@ body {
 }
 
 .jumbotron {
-    background: url(img/Jumbotron.png);
+    background: url(img/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 403px;
+    margin-top: 84px;
 /*     padding: 160px; */
 }
 
@@ -73,8 +77,96 @@ body {
     padding: 76px;
 }
 
-.problem,
-.team {
+.problem {
     background-color: #EEEEEE;
+    line-height: 37.5px;
 }
 
+.problem__text,
+.PPC__textlogo,
+.PPC__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 64px;
+    color: #007765;
+    font-weight: 500;
+}
+
+.hero {
+    background: url(img/image_hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 483px;
+}
+
+.hero__text {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    justify-content: center;
+    text-align: center;
+    padding: 76px;
+}
+
+.PPC {
+    background-color: #ffffff;
+    line-height: 37.5px;
+}
+
+.PPC__logo {
+    float: left;
+    margin: 0 48px 35px 0;
+}
+
+table {
+    width: 100%;
+}
+    
+h4 {
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 24px;
+    color: #007765;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}
+
+h3 {
+    color: #000000;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.footer__text {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 60px;
+}
+    
